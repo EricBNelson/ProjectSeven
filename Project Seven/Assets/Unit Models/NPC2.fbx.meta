@@ -1,0 +1,2412 @@
+fileFormatVersion: 2
+guid: e19591b1df8cdca4cae00989575d34d8
+timeCreated: 1441997822
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Ankle_L
+    100002: Ankle_R
+    100004: AnkleIK_L
+    100006: AnkleIK_R
+    100008: BendRoot
+    100010: Breast_L
+    100012: Breast_R
+    100014: Camera
+    100016: Clavicle_L
+    100018: Clavicle_R
+    100020: CustomShapes
+    100022: DfmBiceps_L
+    100024: DfmBiceps_R
+    100026: DfmClavicle_L
+    100028: DfmClavicle_R
+    100030: DfmDeltoid_L
+    100032: DfmDeltoid_R
+    100034: DfmElbowFwd_L
+    100036: DfmElbowFwd_R
+    100038: DfmFoot_L
+    100040: DfmFoot_R
+    100042: DfmHand_L
+    100044: DfmHand_R
+    100046: DfmHead
+    100048: DfmHipFan_L
+    100050: DfmHipFan_R
+    100052: DfmHips
+    100054: DfmKneeBack_L
+    100056: DfmKneeBack_R
+    100058: DfmKneeFan_L
+    100060: DfmKneeFan_R
+    100062: DfmLegOut_L
+    100064: DfmLegOut_R
+    100066: DfmLoArm1_L
+    100068: DfmLoArm1_R
+    100070: DfmLoArm2_L
+    100072: DfmLoArm2_R
+    100074: DfmLoArm3_L
+    100076: DfmLoArm3_R
+    100078: DfmLoLeg_L
+    100080: DfmLoLeg_R
+    100082: DfmLoLegFan_L
+    100084: DfmLoLegFan_R
+    100086: DfmLoLid_L
+    100088: DfmLoLid_R
+    100090: DfmNeck
+    100092: DfmPelvis
+    100094: DfmRib
+    100096: DfmSpine1
+    100098: DfmSpine2
+    100100: DfmSpine3
+    100102: DfmStomach
+    100104: DfmToe_L
+    100106: DfmToe_R
+    100108: DfmUpArm1_L
+    100110: DfmUpArm1_R
+    100112: DfmUpArm2_L
+    100114: DfmUpArm2_R
+    100116: DfmUpArm3_L
+    100118: DfmUpArm3_R
+    100120: DfmUpLeg1_L
+    100122: DfmUpLeg1_R
+    100124: DfmUpLeg2_L
+    100126: DfmUpLeg2_R
+    100128: DfmUpLid_L
+    100130: DfmUpLid_R
+    100132: DirElbowFwd_L
+    100134: DirElbowFwd_R
+    100136: DirElbowInv_L
+    100138: DirElbowInv_R
+    100140: DirKneeBack_L
+    100142: DirKneeBack_R
+    100144: DirKneeInv_L
+    100146: DirKneeInv_R
+    100148: DirShldrBack_L
+    100150: DirShldrBack_R
+    100152: DirShldrDown_L
+    100154: DirShldrDown_R
+    100156: DirShldrFwd_L
+    100158: DirShldrFwd_R
+    100160: DirShldrOut_L
+    100162: DirShldrOut_R
+    100164: DirShldrUp_L
+    100166: DirShldrUp_R
+    100168: DirUpLegBack_L
+    100170: DirUpLegBack_R
+    100172: DirUpLegFwd_L
+    100174: DirUpLegFwd_R
+    100176: DirUpLegOut_L
+    100178: DirUpLegOut_R
+    100180: Elbow_L
+    100182: Elbow_R
+    100184: ElbowLinkPT_L
+    100186: ElbowLinkPT_R
+    100188: ElbowPT_L
+    100190: ElbowPT_R
+    100192: ElbowPTFK_L
+    100194: ElbowPTFK_R
+    100196: ELClavicle_L
+    100198: ELClavicle_R
+    100200: ELClavLinkPT_L
+    100202: ELClavLinkPT_R
+    100204: ELClavPT_L
+    100206: ELClavPT_R
+    100208: ELUpArm_L
+    100210: ELUpArm_R
+    100212: Eye_L
+    100214: Eye_R
+    100216: EyeParent_L
+    100218: EyeParent_R
+    100220: Eyes
+    100222: Finger-1-1_L
+    100224: Finger-1-1_R
+    100226: Finger-1-2_L
+    100228: Finger-1-2_R
+    100230: Finger-1-3_L
+    100232: Finger-1-3_R
+    100234: Finger-1_L
+    100236: Finger-1_R
+    100238: Finger-2-1_L
+    100240: Finger-2-1_R
+    100242: Finger-2-2_L
+    100244: Finger-2-2_R
+    100246: Finger-2-3_L
+    100248: Finger-2-3_R
+    100250: Finger-2_L
+    100252: Finger-2_R
+    100254: Finger-3-1_L
+    100256: Finger-3-1_R
+    100258: Finger-3-2_L
+    100260: Finger-3-2_R
+    100262: Finger-3-3_L
+    100264: Finger-3-3_R
+    100266: Finger-3_L
+    100268: Finger-3_R
+    100270: Finger-4-1_L
+    100272: Finger-4-1_R
+    100274: Finger-4-2_L
+    100276: Finger-4-2_R
+    100278: Finger-4-3_L
+    100280: Finger-4-3_R
+    100282: Finger-4_L
+    100284: Finger-4_R
+    100286: Finger-5-1_L
+    100288: Finger-5-1_R
+    100290: Finger-5-2_L
+    100292: Finger-5-2_R
+    100294: Finger-5-3_L
+    100296: Finger-5-3_R
+    100298: Finger-5_L
+    100300: Finger-5_R
+    100302: Foot_L
+    100304: Foot_R
+    100306: FootPT_L
+    100308: FootPT_R
+    100310: FootRev_L
+    100312: FootRev_R
+    100314: Gaze
+    100316: GazeParent
+    100318: GZM_Ball
+    100320: GZM_Circle01
+    100322: GZM_Circle025
+    100324: GZM_Circle05
+    100326: GZM_Circle10
+    100328: GZM_Circle_FK_Hip
+    100330: GZM_CircleChest
+    100332: GZM_CircleHips
+    100334: GZM_CircleInvChest
+    100336: GZM_CircleInvSpine
+    100338: GZM_CircleSpine
+    100340: GZM_Eyes
+    100342: GZM_IK_Hips
+    100344: GZM_IK_Shoulder
+    100346: GZM_IKBall
+    100348: GZM_Root
+    100350: HairLong2Back1
+    100352: HairLong2Back2
+    100354: HairLong2BackSide1_L
+    100356: HairLong2BackSide1_R
+    100358: HairLong2BackSide2_L
+    100360: HairLong2BackSide2_R
+    100362: HairLong2Bangs1_L
+    100364: HairLong2Bangs1_R
+    100366: HairLong2Bangs2_L
+    100368: HairLong2Bangs2_R
+    100370: HairLong2FrontSide1_L
+    100372: HairLong2FrontSide1_R
+    100374: HairLong2FrontSide2_L
+    100376: HairLong2FrontSide2_R
+    100378: Hand_L
+    100380: Hand_R
+    100382: Head
+    100384: Hip_L
+    100386: Hip_R
+    100388: Hips
+    100390: Jaw
+    100392: KneeBackTrg_L
+    100394: KneeBackTrg_R
+    100396: KneeLinkPT_L
+    100398: KneeLinkPT_R
+    100400: KneePT_L
+    100402: KneePT_R
+    100404: KneePTFK_L
+    100406: KneePTFK_R
+    100408: Lamp
+    100410: LegFK_L
+    100412: LegFK_R
+    100414: LegIK_L
+    100416: LegIK_R
+    100418: LegOutTrg_L
+    100420: LegOutTrg_R
+    100422: LoArm2PT_L
+    100424: LoArm2PT_R
+    100426: LoArm3PT_L
+    100428: LoArm3PT_R
+    100430: LoArm_L
+    100432: LoArm_R
+    100434: LoArmIK_L
+    100436: LoArmIK_R
+    100438: LoArmRot_L
+    100440: LoArmRot_R
+    100442: LoArmVec_L
+    100444: LoArmVec_R
+    100446: LoLeg_L
+    100448: LoLeg_R
+    100450: LoLegIK_L
+    100452: LoLegIK_R
+    100454: MasterFloor
+    100456: MHBall025
+    100458: MHChest
+    100460: MHCircle01
+    100462: MHCircle025
+    100464: MHCircle05
+    100466: MHCircle10
+    100468: MHCircle15
+    100470: MHCircle20
+    100472: MHCrown
+    100474: MHCube01
+    100476: MHCube025
+    100478: MHCube05
+    100480: MHEndCube01
+    100482: MHFace
+    100484: MHFoot
+    100486: MHFootCtrl_L
+    100488: MHFootCtrl_R
+    100490: MHGaze
+    100492: MHHand
+    100494: MHHandCtrl_L
+    100496: MHHandCtrl_R
+    100498: MHHead
+    100500: MHHook
+    100502: MHJaw
+    100504: MHKnuckle
+    100506: MHMaster
+    100508: MHNeck
+    100510: MHRevFoot
+    100512: MHRevToe
+    100514: MHRoot
+    100516: MHShoulder
+    100518: MHToe_L
+    100520: MHToe_R
+    100522: MHWristCtrl_L
+    100524: MHWristCtrl_R
+    100526: Neck
+    100528: //RootNode
+    100530: Palm-1_L
+    100532: Palm-1_R
+    100534: Palm-2_L
+    100536: Palm-2_R
+    100538: Palm-3_L
+    100540: Palm-3_R
+    100542: Palm-4_L
+    100544: Palm-4_R
+    100546: Palm-5_L
+    100548: Palm-5_R
+    100550: PBrow_L
+    100552: PBrow_R
+    100554: PBrows
+    100556: PCheek_L
+    100558: PCheek_R
+    100560: Pelvis
+    100562: PFace
+    100564: PFaceDisp
+    100566: PJaw
+    100568: PLoLid_L
+    100570: PLoLid_R
+    100572: PLoLip_L
+    100574: PLoLip_R
+    100576: PLoLipMid
+    100578: PMouth_L
+    100580: PMouth_R
+    100582: PMouthMid
+    100584: PNose
+    100586: Projectseven_npc2
+    100588: Projectseven_npc2ClassicShoes_mediumMesh
+    100590: Projectseven_npc2HairLong2Mesh
+    100592: Projectseven_npc2Mesh
+    100594: Projectseven_npc2ShortDressMesh
+    100596: PTongue
+    100598: PUpLid_L
+    100600: PUpLid_R
+    100602: PUpLip_L
+    100604: PUpLip_R
+    100606: PUpLipMid
+    100608: Root
+    100610: Shoulder_L
+    100612: Shoulder_R
+    100614: Shoulders
+    100616: Spine1
+    100618: Spine2
+    100620: Spine3
+    100622: StomachTrg
+    100624: Toe_L
+    100626: Toe_R
+    100628: ToePT_L
+    100630: ToePT_R
+    100632: ToeRev_L
+    100634: ToeRev_R
+    100636: TongueBase
+    100638: TongueMid
+    100640: TongueTip
+    100642: UpArm2PT_L
+    100644: UpArm2PT_R
+    100646: UpArm3PT_L
+    100648: UpArm3PT_R
+    100650: UpArm_L
+    100652: UpArm_R
+    100654: UpArmHinge_L
+    100656: UpArmHinge_R
+    100658: UpArmIK_L
+    100660: UpArmIK_R
+    100662: UpArmRot_L
+    100664: UpArmRot_R
+    100666: UpArmSocket_L
+    100668: UpArmSocket_R
+    100670: UpArmVec_L
+    100672: UpArmVec_R
+    100674: UpArmVecNeg_L
+    100676: UpArmVecNeg_R
+    100678: UpArmVecPos_L
+    100680: UpArmVecPos_R
+    100682: UpLeg_L
+    100684: UpLeg_R
+    100686: UpLegIK_L
+    100688: UpLegIK_R
+    100690: UpLegVec_L
+    100692: UpLegVec_R
+    100694: UpLegVecNeg_L
+    100696: UpLegVecNeg_R
+    100698: Wrist-1_L
+    100700: Wrist-1_R
+    100702: Wrist-2_L
+    100704: Wrist-2_R
+    100706: Wrist_L
+    100708: Wrist_R
+    400000: Ankle_L
+    400002: Ankle_R
+    400004: AnkleIK_L
+    400006: AnkleIK_R
+    400008: BendRoot
+    400010: Breast_L
+    400012: Breast_R
+    400014: Camera
+    400016: Clavicle_L
+    400018: Clavicle_R
+    400020: CustomShapes
+    400022: DfmBiceps_L
+    400024: DfmBiceps_R
+    400026: DfmClavicle_L
+    400028: DfmClavicle_R
+    400030: DfmDeltoid_L
+    400032: DfmDeltoid_R
+    400034: DfmElbowFwd_L
+    400036: DfmElbowFwd_R
+    400038: DfmFoot_L
+    400040: DfmFoot_R
+    400042: DfmHand_L
+    400044: DfmHand_R
+    400046: DfmHead
+    400048: DfmHipFan_L
+    400050: DfmHipFan_R
+    400052: DfmHips
+    400054: DfmKneeBack_L
+    400056: DfmKneeBack_R
+    400058: DfmKneeFan_L
+    400060: DfmKneeFan_R
+    400062: DfmLegOut_L
+    400064: DfmLegOut_R
+    400066: DfmLoArm1_L
+    400068: DfmLoArm1_R
+    400070: DfmLoArm2_L
+    400072: DfmLoArm2_R
+    400074: DfmLoArm3_L
+    400076: DfmLoArm3_R
+    400078: DfmLoLeg_L
+    400080: DfmLoLeg_R
+    400082: DfmLoLegFan_L
+    400084: DfmLoLegFan_R
+    400086: DfmLoLid_L
+    400088: DfmLoLid_R
+    400090: DfmNeck
+    400092: DfmPelvis
+    400094: DfmRib
+    400096: DfmSpine1
+    400098: DfmSpine2
+    400100: DfmSpine3
+    400102: DfmStomach
+    400104: DfmToe_L
+    400106: DfmToe_R
+    400108: DfmUpArm1_L
+    400110: DfmUpArm1_R
+    400112: DfmUpArm2_L
+    400114: DfmUpArm2_R
+    400116: DfmUpArm3_L
+    400118: DfmUpArm3_R
+    400120: DfmUpLeg1_L
+    400122: DfmUpLeg1_R
+    400124: DfmUpLeg2_L
+    400126: DfmUpLeg2_R
+    400128: DfmUpLid_L
+    400130: DfmUpLid_R
+    400132: DirElbowFwd_L
+    400134: DirElbowFwd_R
+    400136: DirElbowInv_L
+    400138: DirElbowInv_R
+    400140: DirKneeBack_L
+    400142: DirKneeBack_R
+    400144: DirKneeInv_L
+    400146: DirKneeInv_R
+    400148: DirShldrBack_L
+    400150: DirShldrBack_R
+    400152: DirShldrDown_L
+    400154: DirShldrDown_R
+    400156: DirShldrFwd_L
+    400158: DirShldrFwd_R
+    400160: DirShldrOut_L
+    400162: DirShldrOut_R
+    400164: DirShldrUp_L
+    400166: DirShldrUp_R
+    400168: DirUpLegBack_L
+    400170: DirUpLegBack_R
+    400172: DirUpLegFwd_L
+    400174: DirUpLegFwd_R
+    400176: DirUpLegOut_L
+    400178: DirUpLegOut_R
+    400180: Elbow_L
+    400182: Elbow_R
+    400184: ElbowLinkPT_L
+    400186: ElbowLinkPT_R
+    400188: ElbowPT_L
+    400190: ElbowPT_R
+    400192: ElbowPTFK_L
+    400194: ElbowPTFK_R
+    400196: ELClavicle_L
+    400198: ELClavicle_R
+    400200: ELClavLinkPT_L
+    400202: ELClavLinkPT_R
+    400204: ELClavPT_L
+    400206: ELClavPT_R
+    400208: ELUpArm_L
+    400210: ELUpArm_R
+    400212: Eye_L
+    400214: Eye_R
+    400216: EyeParent_L
+    400218: EyeParent_R
+    400220: Eyes
+    400222: Finger-1-1_L
+    400224: Finger-1-1_R
+    400226: Finger-1-2_L
+    400228: Finger-1-2_R
+    400230: Finger-1-3_L
+    400232: Finger-1-3_R
+    400234: Finger-1_L
+    400236: Finger-1_R
+    400238: Finger-2-1_L
+    400240: Finger-2-1_R
+    400242: Finger-2-2_L
+    400244: Finger-2-2_R
+    400246: Finger-2-3_L
+    400248: Finger-2-3_R
+    400250: Finger-2_L
+    400252: Finger-2_R
+    400254: Finger-3-1_L
+    400256: Finger-3-1_R
+    400258: Finger-3-2_L
+    400260: Finger-3-2_R
+    400262: Finger-3-3_L
+    400264: Finger-3-3_R
+    400266: Finger-3_L
+    400268: Finger-3_R
+    400270: Finger-4-1_L
+    400272: Finger-4-1_R
+    400274: Finger-4-2_L
+    400276: Finger-4-2_R
+    400278: Finger-4-3_L
+    400280: Finger-4-3_R
+    400282: Finger-4_L
+    400284: Finger-4_R
+    400286: Finger-5-1_L
+    400288: Finger-5-1_R
+    400290: Finger-5-2_L
+    400292: Finger-5-2_R
+    400294: Finger-5-3_L
+    400296: Finger-5-3_R
+    400298: Finger-5_L
+    400300: Finger-5_R
+    400302: Foot_L
+    400304: Foot_R
+    400306: FootPT_L
+    400308: FootPT_R
+    400310: FootRev_L
+    400312: FootRev_R
+    400314: Gaze
+    400316: GazeParent
+    400318: GZM_Ball
+    400320: GZM_Circle01
+    400322: GZM_Circle025
+    400324: GZM_Circle05
+    400326: GZM_Circle10
+    400328: GZM_Circle_FK_Hip
+    400330: GZM_CircleChest
+    400332: GZM_CircleHips
+    400334: GZM_CircleInvChest
+    400336: GZM_CircleInvSpine
+    400338: GZM_CircleSpine
+    400340: GZM_Eyes
+    400342: GZM_IK_Hips
+    400344: GZM_IK_Shoulder
+    400346: GZM_IKBall
+    400348: GZM_Root
+    400350: HairLong2Back1
+    400352: HairLong2Back2
+    400354: HairLong2BackSide1_L
+    400356: HairLong2BackSide1_R
+    400358: HairLong2BackSide2_L
+    400360: HairLong2BackSide2_R
+    400362: HairLong2Bangs1_L
+    400364: HairLong2Bangs1_R
+    400366: HairLong2Bangs2_L
+    400368: HairLong2Bangs2_R
+    400370: HairLong2FrontSide1_L
+    400372: HairLong2FrontSide1_R
+    400374: HairLong2FrontSide2_L
+    400376: HairLong2FrontSide2_R
+    400378: Hand_L
+    400380: Hand_R
+    400382: Head
+    400384: Hip_L
+    400386: Hip_R
+    400388: Hips
+    400390: Jaw
+    400392: KneeBackTrg_L
+    400394: KneeBackTrg_R
+    400396: KneeLinkPT_L
+    400398: KneeLinkPT_R
+    400400: KneePT_L
+    400402: KneePT_R
+    400404: KneePTFK_L
+    400406: KneePTFK_R
+    400408: Lamp
+    400410: LegFK_L
+    400412: LegFK_R
+    400414: LegIK_L
+    400416: LegIK_R
+    400418: LegOutTrg_L
+    400420: LegOutTrg_R
+    400422: LoArm2PT_L
+    400424: LoArm2PT_R
+    400426: LoArm3PT_L
+    400428: LoArm3PT_R
+    400430: LoArm_L
+    400432: LoArm_R
+    400434: LoArmIK_L
+    400436: LoArmIK_R
+    400438: LoArmRot_L
+    400440: LoArmRot_R
+    400442: LoArmVec_L
+    400444: LoArmVec_R
+    400446: LoLeg_L
+    400448: LoLeg_R
+    400450: LoLegIK_L
+    400452: LoLegIK_R
+    400454: MasterFloor
+    400456: MHBall025
+    400458: MHChest
+    400460: MHCircle01
+    400462: MHCircle025
+    400464: MHCircle05
+    400466: MHCircle10
+    400468: MHCircle15
+    400470: MHCircle20
+    400472: MHCrown
+    400474: MHCube01
+    400476: MHCube025
+    400478: MHCube05
+    400480: MHEndCube01
+    400482: MHFace
+    400484: MHFoot
+    400486: MHFootCtrl_L
+    400488: MHFootCtrl_R
+    400490: MHGaze
+    400492: MHHand
+    400494: MHHandCtrl_L
+    400496: MHHandCtrl_R
+    400498: MHHead
+    400500: MHHook
+    400502: MHJaw
+    400504: MHKnuckle
+    400506: MHMaster
+    400508: MHNeck
+    400510: MHRevFoot
+    400512: MHRevToe
+    400514: MHRoot
+    400516: MHShoulder
+    400518: MHToe_L
+    400520: MHToe_R
+    400522: MHWristCtrl_L
+    400524: MHWristCtrl_R
+    400526: Neck
+    400528: //RootNode
+    400530: Palm-1_L
+    400532: Palm-1_R
+    400534: Palm-2_L
+    400536: Palm-2_R
+    400538: Palm-3_L
+    400540: Palm-3_R
+    400542: Palm-4_L
+    400544: Palm-4_R
+    400546: Palm-5_L
+    400548: Palm-5_R
+    400550: PBrow_L
+    400552: PBrow_R
+    400554: PBrows
+    400556: PCheek_L
+    400558: PCheek_R
+    400560: Pelvis
+    400562: PFace
+    400564: PFaceDisp
+    400566: PJaw
+    400568: PLoLid_L
+    400570: PLoLid_R
+    400572: PLoLip_L
+    400574: PLoLip_R
+    400576: PLoLipMid
+    400578: PMouth_L
+    400580: PMouth_R
+    400582: PMouthMid
+    400584: PNose
+    400586: Projectseven_npc2
+    400588: Projectseven_npc2ClassicShoes_mediumMesh
+    400590: Projectseven_npc2HairLong2Mesh
+    400592: Projectseven_npc2Mesh
+    400594: Projectseven_npc2ShortDressMesh
+    400596: PTongue
+    400598: PUpLid_L
+    400600: PUpLid_R
+    400602: PUpLip_L
+    400604: PUpLip_R
+    400606: PUpLipMid
+    400608: Root
+    400610: Shoulder_L
+    400612: Shoulder_R
+    400614: Shoulders
+    400616: Spine1
+    400618: Spine2
+    400620: Spine3
+    400622: StomachTrg
+    400624: Toe_L
+    400626: Toe_R
+    400628: ToePT_L
+    400630: ToePT_R
+    400632: ToeRev_L
+    400634: ToeRev_R
+    400636: TongueBase
+    400638: TongueMid
+    400640: TongueTip
+    400642: UpArm2PT_L
+    400644: UpArm2PT_R
+    400646: UpArm3PT_L
+    400648: UpArm3PT_R
+    400650: UpArm_L
+    400652: UpArm_R
+    400654: UpArmHinge_L
+    400656: UpArmHinge_R
+    400658: UpArmIK_L
+    400660: UpArmIK_R
+    400662: UpArmRot_L
+    400664: UpArmRot_R
+    400666: UpArmSocket_L
+    400668: UpArmSocket_R
+    400670: UpArmVec_L
+    400672: UpArmVec_R
+    400674: UpArmVecNeg_L
+    400676: UpArmVecNeg_R
+    400678: UpArmVecPos_L
+    400680: UpArmVecPos_R
+    400682: UpLeg_L
+    400684: UpLeg_R
+    400686: UpLegIK_L
+    400688: UpLegIK_R
+    400690: UpLegVec_L
+    400692: UpLegVec_R
+    400694: UpLegVecNeg_L
+    400696: UpLegVecNeg_R
+    400698: Wrist-1_L
+    400700: Wrist-1_R
+    400702: Wrist-2_L
+    400704: Wrist-2_R
+    400706: Wrist_L
+    400708: Wrist_R
+    2300000: GZM_Ball
+    2300002: GZM_Circle01
+    2300004: GZM_Circle025
+    2300006: GZM_Circle05
+    2300008: GZM_Circle10
+    2300010: GZM_Circle_FK_Hip
+    2300012: GZM_CircleChest
+    2300014: GZM_CircleHips
+    2300016: GZM_CircleInvChest
+    2300018: GZM_CircleInvSpine
+    2300020: GZM_CircleSpine
+    2300022: GZM_Eyes
+    2300024: GZM_IK_Hips
+    2300026: GZM_IK_Shoulder
+    2300028: GZM_IKBall
+    2300030: GZM_Root
+    2300032: MHBall025
+    2300034: MHChest
+    2300036: MHCircle01
+    2300038: MHCircle025
+    2300040: MHCircle05
+    2300042: MHCircle10
+    2300044: MHCircle15
+    2300046: MHCircle20
+    2300048: MHCrown
+    2300050: MHCube01
+    2300052: MHCube025
+    2300054: MHCube05
+    2300056: MHEndCube01
+    2300058: MHFace
+    2300060: MHFoot
+    2300062: MHFootCtrl_L
+    2300064: MHFootCtrl_R
+    2300066: MHGaze
+    2300068: MHHand
+    2300070: MHHandCtrl_L
+    2300072: MHHandCtrl_R
+    2300074: MHHead
+    2300076: MHHook
+    2300078: MHJaw
+    2300080: MHKnuckle
+    2300082: MHMaster
+    2300084: MHNeck
+    2300086: MHRevFoot
+    2300088: MHRevToe
+    2300090: MHRoot
+    2300092: MHShoulder
+    2300094: MHToe_L
+    2300096: MHToe_R
+    2300098: MHWristCtrl_L
+    2300100: MHWristCtrl_R
+    3300000: GZM_Ball
+    3300002: GZM_Circle01
+    3300004: GZM_Circle025
+    3300006: GZM_Circle05
+    3300008: GZM_Circle10
+    3300010: GZM_Circle_FK_Hip
+    3300012: GZM_CircleChest
+    3300014: GZM_CircleHips
+    3300016: GZM_CircleInvChest
+    3300018: GZM_CircleInvSpine
+    3300020: GZM_CircleSpine
+    3300022: GZM_Eyes
+    3300024: GZM_IK_Hips
+    3300026: GZM_IK_Shoulder
+    3300028: GZM_IKBall
+    3300030: GZM_Root
+    3300032: MHBall025
+    3300034: MHChest
+    3300036: MHCircle01
+    3300038: MHCircle025
+    3300040: MHCircle05
+    3300042: MHCircle10
+    3300044: MHCircle15
+    3300046: MHCircle20
+    3300048: MHCrown
+    3300050: MHCube01
+    3300052: MHCube025
+    3300054: MHCube05
+    3300056: MHEndCube01
+    3300058: MHFace
+    3300060: MHFoot
+    3300062: MHFootCtrl_L
+    3300064: MHFootCtrl_R
+    3300066: MHGaze
+    3300068: MHHand
+    3300070: MHHandCtrl_L
+    3300072: MHHandCtrl_R
+    3300074: MHHead
+    3300076: MHHook
+    3300078: MHJaw
+    3300080: MHKnuckle
+    3300082: MHMaster
+    3300084: MHNeck
+    3300086: MHRevFoot
+    3300088: MHRevToe
+    3300090: MHRoot
+    3300092: MHShoulder
+    3300094: MHToe_L
+    3300096: MHToe_R
+    3300098: MHWristCtrl_L
+    3300100: MHWristCtrl_R
+    4300000: Projectseven_npc2ClassicShoes_mediumMesh
+    4300002: Projectseven_npc2ShortDressMesh
+    4300004: Projectseven_npc2HairLong2Mesh
+    4300006: Projectseven_npc2Mesh
+    4300008: MHRoot
+    4300010: MHChest
+    4300012: MHEndCube01
+    4300014: MHCube05
+    4300016: MHCube025
+    4300018: MHCube01
+    4300020: MHCircle20
+    4300022: MHCircle15
+    4300024: MHCircle10
+    4300026: MHCircle05
+    4300028: MHCircle025
+    4300030: MHCircle01
+    4300032: GZM_Circle10
+    4300034: GZM_Circle05
+    4300036: GZM_Circle025
+    4300038: GZM_Circle01
+    4300040: GZM_Root
+    4300042: GZM_IK_Shoulder
+    4300044: GZM_IK_Hips
+    4300046: GZM_CircleInvSpine
+    4300048: GZM_CircleInvChest
+    4300050: GZM_CircleHips
+    4300052: GZM_CircleChest
+    4300054: GZM_CircleSpine
+    4300056: GZM_Eyes
+    4300058: GZM_IKBall
+    4300060: GZM_Ball
+    4300062: GZM_Circle_FK_Hip
+    4300064: MHJaw
+    4300066: MHFace
+    4300068: MHHook
+    4300070: MHMaster
+    4300072: MHNeck
+    4300074: MHBall025
+    4300076: MHCrown
+    4300078: MHHandCtrl_R
+    4300080: MHHandCtrl_L
+    4300082: MHShoulder
+    4300084: MHHead
+    4300086: MHFootCtrl_R
+    4300088: MHKnuckle
+    4300090: MHHand
+    4300092: MHRevToe
+    4300094: MHToe_R
+    4300096: MHToe_L
+    4300098: MHRevFoot
+    4300100: MHFoot
+    4300102: MHWristCtrl_R
+    4300104: MHWristCtrl_L
+    4300106: MHFootCtrl_L
+    4300108: MHGaze
+    7400000: Default Take
+    7400002: NPC2_IDLE
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Projectseven_npc2ClassicShoes_mediumMesh
+    13700002: Projectseven_npc2HairLong2Mesh
+    13700004: Projectseven_npc2Mesh
+    13700006: Projectseven_npc2ShortDressMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Projectseven_npc2
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_Ball
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_Circle01
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_Circle05
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_Circle10
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_Circle025
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_Circle_FK_Hip
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_CircleChest
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_CircleHips
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_CircleInvChest
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_CircleInvSpine
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_CircleSpine
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_Eyes
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_IK_Hips
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_IK_Shoulder
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_IKBall
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_Root
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHBall025
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHChest
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCircle01
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCircle05
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCircle10
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCircle15
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCircle20
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCircle025
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCrown
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCube01
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCube05
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCube025
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHEndCube01
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHFace
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHFoot
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHFootCtrl_L
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHFootCtrl_R
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHGaze
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHHand
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHHandCtrl_L
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHHandCtrl_R
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHHead
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHHook
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHJaw
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHKnuckle
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHMaster
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHNeck
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHRevFoot
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHRevToe
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHRoot
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHShoulder
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHToe_L
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHToe_R
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHWristCtrl_L
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHWristCtrl_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Ankle_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Ankle_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Elbow_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Elbow_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/GazeParent
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/GazeParent/Gaze
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_L/ToeRev_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_L/ToeRev_L/FootRev_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/AnkleIK_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/AnkleIK_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/FootPT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/KneePT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_L/ToeRev_L/ToePT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_R/ToeRev_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_R/ToeRev_R/FootRev_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_R/ToeRev_R/FootRev_R/FootPT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_R/ToeRev_R/FootRev_R/KneePT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_R/ToeRev_R/ToePT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/BendRoot
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/DfmHips
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/DfmHips/DfmLegOut_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/DfmHips/DfmLegOut_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/DfmHips/StomachTrg
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/DfmHipFan_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/DfmUpLeg1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/DfmUpLeg1_L/LegOutTrg_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/DirUpLegBack_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/DirUpLegFwd_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/DirUpLegOut_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmLoLegFan_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmUpLeg2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmUpLeg2_L/DfmKneeBack_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmUpLeg2_L/DfmKneeFan_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DirKneeBack_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DirKneeInv_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/KneeLinkPT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/KneePTFK_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/DfmLoLeg_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/DfmLoLeg_L/KneeBackTrg_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/DfmFoot_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/Toe_L/DfmToe_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/Toe_L/LegFK_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLegIK_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLegIK_L/LoLegIK_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLegVec_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLegVec_L/UpLegVecNeg_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/DfmHipFan_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/DfmUpLeg1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/DfmUpLeg1_R/LegOutTrg_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/DirUpLegBack_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/DirUpLegFwd_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/DirUpLegOut_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmLoLegFan_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmUpLeg2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmUpLeg2_R/DfmKneeBack_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmUpLeg2_R/DfmKneeFan_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DirKneeBack_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DirKneeInv_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/KneeLinkPT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/KneePTFK_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/DfmLoLeg_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/DfmLoLeg_R/KneeBackTrg_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/DfmFoot_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/Toe_R/DfmToe_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/Toe_R/LegFK_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLegIK_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLegIK_R/LoLegIK_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLegVec_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLegVec_R/UpLegVecNeg_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/Breast_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/Breast_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2Back1
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2Back1/HairLong2Back2
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2BackSide1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2BackSide1_L/HairLong2BackSide2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2BackSide1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2BackSide1_R/HairLong2BackSide2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2Bangs1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2Bangs1_L/HairLong2Bangs2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2Bangs1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2Bangs1_R/HairLong2Bangs2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2FrontSide1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2FrontSide1_L/HairLong2FrontSide2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2FrontSide1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2FrontSide1_R/HairLong2FrontSide2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmRib
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmRib/DfmStomach
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_L/ELUpArm_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_R/ELUpArm_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavPT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavPT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DfmClavicle_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DfmClavicle_L/DfmDeltoid_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrBack_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrDown_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrFwd_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrOut_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrUp_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/ELClavLinkPT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/Shoulder_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/Shoulder_L/ElbowPT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DfmClavicle_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DfmClavicle_R/DfmDeltoid_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrBack_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrDown_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrFwd_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrOut_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrUp_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/ELClavLinkPT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/Shoulder_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/Shoulder_R/ElbowPT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmLoLid_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmLoLid_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmUpLid_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmUpLid_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_L/Eye_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_R/Eye_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Eyes
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw/TongueBase
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw/TongueBase/TongueMid
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw/TongueBase/TongueMid/TongueTip
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/DfmBiceps_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DfmElbowFwd_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DfmUpArm3_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DirElbowFwd_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DirElbowInv_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/ElbowLinkPT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/ElbowPTFK_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/DfmLoArm3_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/DfmHand_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L/Finger-1-2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L/Finger-1-2_L/Finger-1-3_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L/Finger-1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2-1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2-1_L/Finger-2-2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2-1_L/Finger-2-2_L/Finger-2-3_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3-1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3-1_L/Finger-3-2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3-1_L/Finger-3-2_L/Finger-3-3_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4-1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4-1_L/Finger-4-2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4-1_L/Finger-4-2_L/Finger-4-3_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5-1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5-1_L/Finger-5-2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5-1_L/Finger-5-2_L/Finger-5-3_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/LoArm3PT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L/DfmLoArm1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L/DfmLoArm1_L/DfmLoArm2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L/DfmLoArm1_L/LoArm2PT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmVec_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/UpArm3PT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmIK_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmIK_L/LoArmIK_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L/DfmUpArm1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L/DfmUpArm1_L/DfmUpArm2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L/DfmUpArm1_L/UpArm2PT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmVec_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmVecNeg_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmVecPos_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/DfmBiceps_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DfmElbowFwd_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DfmUpArm3_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DirElbowFwd_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DirElbowInv_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/ElbowLinkPT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/ElbowPTFK_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/DfmLoArm3_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/DfmHand_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R/Finger-1-2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R/Finger-1-2_R/Finger-1-3_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R/Finger-1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2-1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2-1_R/Finger-2-2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2-1_R/Finger-2-2_R/Finger-2-3_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3-1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3-1_R/Finger-3-2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3-1_R/Finger-3-2_R/Finger-3-3_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4-1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4-1_R/Finger-4-2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4-1_R/Finger-4-2_R/Finger-4-3_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5-1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5-1_R/Finger-5-2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5-1_R/Finger-5-2_R/Finger-5-3_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/LoArm3PT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R/DfmLoArm1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R/DfmLoArm1_R/DfmLoArm2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R/DfmLoArm1_R/LoArm2PT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmVec_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/UpArm3PT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmIK_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmIK_R/LoArmIK_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R/DfmUpArm1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R/DfmUpArm1_R/DfmUpArm2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R/DfmUpArm1_R/UpArm2PT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmVec_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmVecNeg_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmVecPos_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Shoulders
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Wrist_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Wrist_R
+        weight: 1
+      - path: Projectseven_npc2/PFace
+        weight: 1
+      - path: Projectseven_npc2/PFace/PBrow_L
+        weight: 1
+      - path: Projectseven_npc2/PFace/PBrow_R
+        weight: 1
+      - path: Projectseven_npc2/PFace/PBrows
+        weight: 1
+      - path: Projectseven_npc2/PFace/PCheek_L
+        weight: 1
+      - path: Projectseven_npc2/PFace/PCheek_R
+        weight: 1
+      - path: Projectseven_npc2/PFace/PFaceDisp
+        weight: 1
+      - path: Projectseven_npc2/PFace/PJaw
+        weight: 1
+      - path: Projectseven_npc2/PFace/PLoLid_L
+        weight: 1
+      - path: Projectseven_npc2/PFace/PLoLid_R
+        weight: 1
+      - path: Projectseven_npc2/PFace/PLoLip_L
+        weight: 1
+      - path: Projectseven_npc2/PFace/PLoLip_R
+        weight: 1
+      - path: Projectseven_npc2/PFace/PLoLipMid
+        weight: 1
+      - path: Projectseven_npc2/PFace/PMouth_L
+        weight: 1
+      - path: Projectseven_npc2/PFace/PMouth_R
+        weight: 1
+      - path: Projectseven_npc2/PFace/PMouthMid
+        weight: 1
+      - path: Projectseven_npc2/PFace/PNose
+        weight: 1
+      - path: Projectseven_npc2/PFace/PTongue
+        weight: 1
+      - path: Projectseven_npc2/PFace/PUpLid_L
+        weight: 1
+      - path: Projectseven_npc2/PFace/PUpLid_R
+        weight: 1
+      - path: Projectseven_npc2/PFace/PUpLip_L
+        weight: 1
+      - path: Projectseven_npc2/PFace/PUpLip_R
+        weight: 1
+      - path: Projectseven_npc2/PFace/PUpLipMid
+        weight: 1
+      - path: Projectseven_npc2ClassicShoes_mediumMesh
+        weight: 1
+      - path: Projectseven_npc2HairLong2Mesh
+        weight: 1
+      - path: Projectseven_npc2Mesh
+        weight: 1
+      - path: Projectseven_npc2ShortDressMesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: NPC2_IDLE
+      takeName: NPC2_IDLE
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Projectseven_npc2
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_Ball
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_Circle01
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_Circle05
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_Circle10
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_Circle025
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_Circle_FK_Hip
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_CircleChest
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_CircleHips
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_CircleInvChest
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_CircleInvSpine
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_CircleSpine
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_Eyes
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_IK_Hips
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_IK_Shoulder
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_IKBall
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/GZM_Root
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHBall025
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHChest
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCircle01
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCircle05
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCircle10
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCircle15
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCircle20
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCircle025
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCrown
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCube01
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCube05
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHCube025
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHEndCube01
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHFace
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHFoot
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHFootCtrl_L
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHFootCtrl_R
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHGaze
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHHand
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHHandCtrl_L
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHHandCtrl_R
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHHead
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHHook
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHJaw
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHKnuckle
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHMaster
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHNeck
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHRevFoot
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHRevToe
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHRoot
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHShoulder
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHToe_L
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHToe_R
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHWristCtrl_L
+        weight: 1
+      - path: Projectseven_npc2/CustomShapes/MHWristCtrl_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Ankle_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Ankle_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Elbow_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Elbow_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/GazeParent
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/GazeParent/Gaze
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_L/ToeRev_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_L/ToeRev_L/FootRev_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/AnkleIK_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/AnkleIK_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/FootPT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/KneePT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_L/ToeRev_L/ToePT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_R/ToeRev_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_R/ToeRev_R/FootRev_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_R/ToeRev_R/FootRev_R/FootPT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_R/ToeRev_R/FootRev_R/KneePT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/LegIK_R/ToeRev_R/ToePT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/BendRoot
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/DfmHips
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/DfmHips/DfmLegOut_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/DfmHips/DfmLegOut_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/DfmHips/StomachTrg
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/DfmHipFan_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/DfmUpLeg1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/DfmUpLeg1_L/LegOutTrg_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/DirUpLegBack_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/DirUpLegFwd_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/DirUpLegOut_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmLoLegFan_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmUpLeg2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmUpLeg2_L/DfmKneeBack_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmUpLeg2_L/DfmKneeFan_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DirKneeBack_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DirKneeInv_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/KneeLinkPT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/KneePTFK_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/DfmLoLeg_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/DfmLoLeg_L/KneeBackTrg_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/DfmFoot_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/Toe_L/DfmToe_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/Toe_L/LegFK_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLegIK_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLegIK_L/LoLegIK_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLegVec_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_L/UpLegVec_L/UpLegVecNeg_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/DfmHipFan_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/DfmUpLeg1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/DfmUpLeg1_R/LegOutTrg_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/DirUpLegBack_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/DirUpLegFwd_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/DirUpLegOut_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmLoLegFan_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmUpLeg2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmUpLeg2_R/DfmKneeBack_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmUpLeg2_R/DfmKneeFan_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DirKneeBack_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DirKneeInv_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/KneeLinkPT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/KneePTFK_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/DfmLoLeg_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/DfmLoLeg_R/KneeBackTrg_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/DfmFoot_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/Toe_R/DfmToe_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/Toe_R/LegFK_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLegIK_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLegIK_R/LoLegIK_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLegVec_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Hips/Hip_R/UpLegVec_R/UpLegVecNeg_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/Breast_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/Breast_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2Back1
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2Back1/HairLong2Back2
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2BackSide1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2BackSide1_L/HairLong2BackSide2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2BackSide1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2BackSide1_R/HairLong2BackSide2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2Bangs1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2Bangs1_L/HairLong2Bangs2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2Bangs1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2Bangs1_R/HairLong2Bangs2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2FrontSide1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2FrontSide1_L/HairLong2FrontSide2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2FrontSide1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead/HairLong2FrontSide1_R/HairLong2FrontSide2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmRib
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmRib/DfmStomach
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_L/ELUpArm_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_R/ELUpArm_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavPT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavPT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DfmClavicle_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DfmClavicle_L/DfmDeltoid_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrBack_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrDown_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrFwd_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrOut_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrUp_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/ELClavLinkPT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/Shoulder_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/Shoulder_L/ElbowPT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DfmClavicle_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DfmClavicle_R/DfmDeltoid_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrBack_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrDown_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrFwd_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrOut_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrUp_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/ELClavLinkPT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/Shoulder_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/Shoulder_R/ElbowPT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmLoLid_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmLoLid_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmUpLid_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmUpLid_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_L/Eye_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_R/Eye_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Eyes
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw/TongueBase
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw/TongueBase/TongueMid
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw/TongueBase/TongueMid/TongueTip
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/DfmBiceps_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DfmElbowFwd_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DfmUpArm3_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DirElbowFwd_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DirElbowInv_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/ElbowLinkPT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/ElbowPTFK_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/DfmLoArm3_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/DfmHand_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L/Finger-1-2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L/Finger-1-2_L/Finger-1-3_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L/Finger-1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2-1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2-1_L/Finger-2-2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2-1_L/Finger-2-2_L/Finger-2-3_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3-1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3-1_L/Finger-3-2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3-1_L/Finger-3-2_L/Finger-3-3_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4-1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4-1_L/Finger-4-2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4-1_L/Finger-4-2_L/Finger-4-3_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5-1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5-1_L/Finger-5-2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5-1_L/Finger-5-2_L/Finger-5-3_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/LoArm3PT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L/DfmLoArm1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L/DfmLoArm1_L/DfmLoArm2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L/DfmLoArm1_L/LoArm2PT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmVec_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/UpArm3PT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmIK_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmIK_L/LoArmIK_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L/DfmUpArm1_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L/DfmUpArm1_L/DfmUpArm2_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L/DfmUpArm1_L/UpArm2PT_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmVec_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmVecNeg_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_L/UpArmVecPos_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/DfmBiceps_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DfmElbowFwd_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DfmUpArm3_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DirElbowFwd_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DirElbowInv_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/ElbowLinkPT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/ElbowPTFK_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/DfmLoArm3_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/DfmHand_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R/Finger-1-2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R/Finger-1-2_R/Finger-1-3_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R/Finger-1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2-1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2-1_R/Finger-2-2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2-1_R/Finger-2-2_R/Finger-2-3_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3-1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3-1_R/Finger-3-2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3-1_R/Finger-3-2_R/Finger-3-3_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4-1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4-1_R/Finger-4-2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4-1_R/Finger-4-2_R/Finger-4-3_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5-1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5-1_R/Finger-5-2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5-1_R/Finger-5-2_R/Finger-5-3_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/LoArm3PT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R/DfmLoArm1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R/DfmLoArm1_R/DfmLoArm2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R/DfmLoArm1_R/LoArm2PT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmVec_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/UpArm3PT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmIK_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmIK_R/LoArmIK_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R/DfmUpArm1_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R/DfmUpArm1_R/DfmUpArm2_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R/DfmUpArm1_R/UpArm2PT_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmVec_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmVecNeg_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Root/UpArmSocket_R/UpArmVecPos_R
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Shoulders
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Wrist_L
+        weight: 1
+      - path: Projectseven_npc2/MasterFloor/Wrist_R
+        weight: 1
+      - path: Projectseven_npc2/PFace
+        weight: 1
+      - path: Projectseven_npc2/PFace/PBrow_L
+        weight: 1
+      - path: Projectseven_npc2/PFace/PBrow_R
+        weight: 1
+      - path: Projectseven_npc2/PFace/PBrows
+        weight: 1
+      - path: Projectseven_npc2/PFace/PCheek_L
+        weight: 1
+      - path: Projectseven_npc2/PFace/PCheek_R
+        weight: 1
+      - path: Projectseven_npc2/PFace/PFaceDisp
+        weight: 1
+      - path: Projectseven_npc2/PFace/PJaw
+        weight: 1
+      - path: Projectseven_npc2/PFace/PLoLid_L
+        weight: 1
+      - path: Projectseven_npc2/PFace/PLoLid_R
+        weight: 1
+      - path: Projectseven_npc2/PFace/PLoLip_L
+        weight: 1
+      - path: Projectseven_npc2/PFace/PLoLip_R
+        weight: 1
+      - path: Projectseven_npc2/PFace/PLoLipMid
+        weight: 1
+      - path: Projectseven_npc2/PFace/PMouth_L
+        weight: 1
+      - path: Projectseven_npc2/PFace/PMouth_R
+        weight: 1
+      - path: Projectseven_npc2/PFace/PMouthMid
+        weight: 1
+      - path: Projectseven_npc2/PFace/PNose
+        weight: 1
+      - path: Projectseven_npc2/PFace/PTongue
+        weight: 1
+      - path: Projectseven_npc2/PFace/PUpLid_L
+        weight: 1
+      - path: Projectseven_npc2/PFace/PUpLid_R
+        weight: 1
+      - path: Projectseven_npc2/PFace/PUpLip_L
+        weight: 1
+      - path: Projectseven_npc2/PFace/PUpLip_R
+        weight: 1
+      - path: Projectseven_npc2/PFace/PUpLipMid
+        weight: 1
+      - path: Projectseven_npc2ClassicShoes_mediumMesh
+        weight: 1
+      - path: Projectseven_npc2HairLong2Mesh
+        weight: 1
+      - path: Projectseven_npc2Mesh
+        weight: 1
+      - path: Projectseven_npc2ShortDressMesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
